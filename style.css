@@ -200,7 +200,7 @@ cursor: pointer;
 }
 
 /* Bottom Player */
-.bottom {
+/* .bottom {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -220,14 +220,14 @@ cursor: pointer;
     height: 5px;
     box-shadow: 1px 1px 10px red;
 }
-
-.icons i {
+ */
+/* .icons i {
     font-size: 40px;
     transition: transform 0.3s;
     color: cyan;
    
     
-}
+} */
 
 .icons i:hover {
     transform: scale(1.1);
@@ -257,9 +257,9 @@ cursor: pointer;
         width: 140px;
     }
 
-    .bottom input[type="range"] {
+/*     .bottom input[type="range"] {
         width: 60%;
-    }
+    } */
 }
 
 #gif{
