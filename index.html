@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-idth, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3e51951c5f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify Clone</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <!-- Home with an image -->
+            <li class="brand">
+                <img src="https://en.followersnet.com/wp-content/uploads/2019/01/Spotify-1.png" alt="Spotify Logo">
+                <span> <h4> Spotify</h4></span>
+            </li>
+            <li>
+                <li class="search-container">
+                    <div id="house">
+                        <i class="fa-solid fa-house"></i>
+                </div>
+                
+            </li>
+           
+                <div class="search-box">
+                   
+                    <input type="text" name="search" id="search" placeholder="What do you want to play" width="500px">
+                    <div id="glass">
+                    <i class="fa-solid fa-magnifying-glass" width="500px" color="black"></i>
+                </div>
+                </div>
+            </li>
+            <div id="sign">
+            <h3>Sign up</h3>
+            </div>
+            <div id="login">
+                <h3>Login </h3>
+             </div>
+
+            <!-- <li>About</li> -->
+        </ul>
+    </nav>
+
+
+    
+  
+    <div class="container">
+        <h2>My_Playlist-Best of NCS</h2>
+        <div class="songList">
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="Song Cover">
+                    <span class="songName"></span>
+                    <span class="songlistplay"><span class="timestamp">05:31 <i id="0" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="Song Cover">
+                    <span class="songName"></span>
+                    <span class="songlistplay"><span class="timestamp">04:34 <i id="1" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="Song Cover">
+                    <span class="songName"></span>
+                    <span class="songlistplay"><span class="timestamp">04:12 <i id="2" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="Song Cover">
+                    <span class="songName"></span>
+                    <span class="songlistplay"><span class="timestamp">05:20 <i id="3" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="Sanam RE">
+                    <span class="songName"></span>
+                    <span class="songlistplay"><span class="timestamp">05:13 <i id="4" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="High Rated Gabru">
+                    <span class="songName"></span>
+                    <span class="songlistplay"><span class="timestamp">3:34 <i id="5" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="Song Cover">
+                    <span class="songName"></span>
+                    <span class="songlistplay"><span class="timestamp">04:19 <i id="6" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="Song Cover">
+                    <span class="songName"></span>
+                    <span class="songlistplay"><span class="timestamp">04:34 <i id="7" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="Song Cover">
+                    <span class="songName"></span>
+                    <span class="songlistplay"><span class="timestamp">03:3 <i id="8" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="Song Cover">
+                    <span class="songName"></span>
+                    <span class="songlistplay"><span class="timestamp">04:10 <i id="9" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="Song Cover">
+                    <span class="songName"></span>
+                    <span class="songlistplay"><span class="timestamp">03:11 <i id="10" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+            </div>
+        <div class="songBanner"></div>
+    </div>
+</div>
+
+<div class="liabrary">
+<select id="section">
+<option  value=""><h3> Warriyo_Mortals</h3></option>
+<option  value=""><h3> Desi Kalakar"</h3></option>
+<option  value=""> <h3>Kya Baat Hai</h3> </option>
+<option value=""><h3>Sanam Teri Kasam</h3></option>
+<option value=""><h3>Sanam Re</h3></option>
+<option  value=""><h3>Aaoge Tum Kabhi</h3></option>
+<option  value=""><h3>Tum hi ho</h3></option>
+<option  value=""><h3>Teri Bahon me</h3></option>
+<option  value=""><h3>Pahle bhi me</h3></option>
+<option  value=""><h3>Phir_Bhi Tumko Chahunga</h3></option>
+<option  value=""><h3>Main Aa Likhun Tu Aa Jaaye</h3></option>
+
+</select>
+</div>
+    <div class="bottom">
+        
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+        
+    </div>
+    <div id="volume">
+        <input type="range"id="volume1"min="0"max="100" value="0">
+        <span id="volume-display">100</span>
+    </div>
+        <div class="songInfo">
+            <img src="https://media.giphy.com/media/149mbArhpEpry0/giphy.gif" alt="Playing GIF" width="200px" alt="Gif" id="gif"><span id="masterSongName">Warriyo_Mortals </span>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
