@@ -266,6 +266,68 @@ cursor: pointer;
    opacity: 0;
 }
 
+
+ .bottom {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #181818;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .bottom input[type="range"] {
+            width: 90%;
+        }
+
+        .icons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        #volume {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+
+        select {
+            width: 100%;
+            padding: 0.5rem;
+            border-radius: 5px;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            .icons i {
+                font-size: 24px;
+            }
+
+            .bottom {
+                padding: 15px 5px;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  /* Volume Slider Styling  */
  /**
  #volumeSlider {
