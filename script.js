@@ -13,17 +13,17 @@ let Volume= document.getElementById('volume1')
 let display=document.getElementById('volume-display');
 
 let songs = [
-    { songName: "Warriyo_Mortals",filePath: "songs/1.mp3.mp3", coverPath: "covers/1.jpg.jpg" },
-    { songName: "Desi Kalakar", filePath: 'songs/2.mp3.mp3', coverPath: "covers/2.jpg.jpg" },
-    { songName: "Kya Baat Hai", filePath: 'songs/3.mp3.mp3', coverPath: "covers/3.jpg.jpg" },
-    { songName: "Sanam Teri Kasam", filePath: 'songs/4.mp3.mp3', coverPath: "covers/4.jpg.jpg" },
-    { songName: "Sanam Re", filePath: 'songs/5.mp3.mp3', coverPath: "covers/5s.jpg.jpg" },
-    { songName: "Aaoge Tum Kabhi", filePath: 'songs/6.mp3.mp3', coverPath: "covers/6.jpg.jpg" },
-    { songName: "Tum hi ho", filePath: 'songs/7.mp3.mp3', coverPath: "covers/7.jpg.jpg" },
-    { songName: "Teri Bahon me", filePath: 'songs/8.mp3.mp3', coverPath: "covers/8.jpg.jpg" },
-    { songName: "Pahle bhi me", filePath: 'songs/9.mp3.mp3', coverPath: "covers/9.jpg.jpg" },
-    { songName: "Phir_Bhi Tumko Chahunga", filePath: 'songs/10.mp3.mp3', coverPath: "covers/10.jpg.jpg" },
-    { songName: "Main Aa Likhun Tu Aa Jaaye", filePath: 'songs/11.mp3.mp3', coverPath: "covers/3.jpg.jpg" },
+    { songName: "Warriyo_Mortals",filePath: "songs/1.mp3.mp3", coverPath: "1.jpg.jpg" },
+    { songName: "Desi Kalakar", filePath: 'songs/2.mp3.mp3', coverPath: "2.jpg.jpg" },
+    { songName: "Kya Baat Hai", filePath: 'songs/3.mp3.mp3', coverPath: "3.jpg.jpg" },
+    { songName: "Sanam Teri Kasam", filePath: 'songs/4.mp3.mp3', coverPath: "4.jpg.jpg" },
+    { songName: "Sanam Re", filePath: 'songs/5.mp3.mp3', coverPath: "5s.jpg.jpg" },
+    { songName: "Aaoge Tum Kabhi", filePath: 'songs/6.mp3.mp3', coverPath: "6.jpg.jpg" },
+    { songName: "Tum hi ho", filePath: 'songs/7.mp3.mp3', coverPath: "7.jpg.jpg" },
+    { songName: "Teri Bahon me", filePath: 'songs/8.mp3.mp3', coverPath: "8.jpg.jpg" },
+    { songName: "Pahle bhi me", filePath: 'songs/9.mp3.mp3', coverPath: "9.jpg.jpg" },
+    { songName: "Phir_Bhi Tumko Chahunga", filePath: 'songs/10.mp3.mp3', coverPath: "10.jpg.jpg" },
+    { songName: "Main Aa Likhun Tu Aa Jaaye", filePath: 'songs/11.mp3.mp3', coverPath: "3.jpg.jpg" },
 ];
 
 
